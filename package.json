@@ -1,0 +1,20 @@
+{
+  "name": "antigravitygame",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.3",
+    "@netlify/functions": "^6.0.2"
+  }
+}
